@@ -107,39 +107,8 @@ The number of bytes that are allocated for the file. This value is usually a mul
 
 ### -field FileAttributes
 
-The file attributes. This member can be any valid combination of the following attributes:
-
-
-
-#### FILE_ATTRIBUTE_ARCHIVE (0x00000020)
-
-
-
-#### FILE_ATTRIBUTE_COMPRESSED (0x00000800)
-
-
-
-#### FILE_ATTRIBUTE_DIRECTORY (0x00000010)
-
-
-
-#### FILE_ATTRIBUTE_HIDDEN (0x00000002)
-
-
-
-#### FILE_ATTRIBUTE_NORMAL (0x00000080)
-
-
-
-#### FILE_ATTRIBUTE_READONLY (0x00000001)
-
-
-
-#### FILE_ATTRIBUTE_SYSTEM (0x00000004)
-
-
-
-#### FILE_ATTRIBUTE_TEMPORARY (0x00000100)
+The file attributes. For possible values and their descriptions, see 
+      <a href="/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>.
 
 ### -field FileNameLength
 
